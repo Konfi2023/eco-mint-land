@@ -36,14 +36,17 @@ const Hero = () => {
 
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-primary-glow to-tech-blue bg-clip-text text-transparent leading-tight">
-            Your Gateway to 
+            We create Trust in 
             <br />
             Ecosystem Services
           </h1>
           
           {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            The world's first marketplace for ecosystem services powered by blockchain and satellite technology. 
+          <p className="text-xl md:text-2xl text-muted-foreground mb-6 max-w-3xl mx-auto leading-relaxed">
+            The world's first marketplace for ecosystem services powered by blockchain and satellite technology.
+          </p>
+
+          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Register projects, trade verified certificates, and create real environmental impact.
           </p>
 
