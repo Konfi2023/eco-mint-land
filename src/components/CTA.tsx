@@ -8,41 +8,41 @@ const CTA = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center gap-2 mb-6">
             <Sparkles className="w-6 h-6 text-primary" />
-            <span className="text-sm font-medium text-primary uppercase tracking-wider">Get Started Today</span>
+            <span className="text-sm font-medium text-primary uppercase tracking-wider">Stay Connected</span>
             <Sparkles className="w-6 h-6 text-tech-blue" />
           </div>
           
           <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-tech-blue to-success bg-clip-text text-transparent">
-            Ready to Make an Impact?
+            Stay Updated on Our Progress
           </h2>
           
           <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-            Join thousands of project developers and companies creating verified environmental impact 
-            through our blockchain-powered marketplace.
+            We're building the future of ecosystem services. Join our community to get updates 
+            on our development progress and be the first to know when we launch.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button variant="hero" size="xl" className="group">
-              Start Your Journey
+              Contact Us
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="outline-hero" size="xl">
-              Learn More
+              Subscribe for Updates
             </Button>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-primary" />
-              <span>Free to start</span>
+              <span>Coming Soon</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-tech-blue" />
-              <span>Global certification</span>
+              <span>Early Access Available</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-success" />
-              <span>24/7 support</span>
+              <span>Join Our Community</span>
             </div>
           </div>
         </div>
