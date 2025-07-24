@@ -36,35 +36,9 @@ const Hero = () => {
 
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-primary-glow to-tech-blue bg-clip-text text-transparent leading-tight">
-            <span className="block">
-              {"We create Trust in ".split("").map((char, index) => (
-                <span
-                  key={index}
-                  className="inline-block opacity-0 animate-fade-in"
-                  style={{
-                    animationDelay: `${index * 0.1}s`,
-                    animationFillMode: 'forwards'
-                  }}
-                >
-                  {char === " " ? "\u00A0" : char}
-                </span>
-              ))}
-            </span>
+            We create Trust in 
             <br />
-            <span className="block">
-              {"Ecosystem Services".split("").map((char, index) => (
-                <span
-                  key={index + 100}
-                  className="inline-block opacity-0 animate-fade-in"
-                  style={{
-                    animationDelay: `${(index + 18) * 0.1}s`,
-                    animationFillMode: 'forwards'
-                  }}
-                >
-                  {char === " " ? "\u00A0" : char}
-                </span>
-              ))}
-            </span>
+            Ecosystem Services
           </h1>
           
           {/* Subheadline */}
