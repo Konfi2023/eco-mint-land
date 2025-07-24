@@ -40,11 +40,10 @@ const Hero = () => {
               {"We create Trust in ".split("").map((char, index) => (
                 <span
                   key={index}
-                  className="inline-block animate-fade-in opacity-0"
+                  className="inline-block opacity-0 animate-fade-in"
                   style={{
-                    animationDelay: `${index * 0.05}s`,
-                    animationFillMode: 'forwards',
-                    transform: 'translateY(20px)'
+                    animationDelay: `${index * 0.1}s`,
+                    animationFillMode: 'forwards'
                   }}
                 >
                   {char === " " ? "\u00A0" : char}
@@ -55,12 +54,11 @@ const Hero = () => {
             <span className="block">
               {"Ecosystem Services".split("").map((char, index) => (
                 <span
-                  key={index}
-                  className="inline-block animate-fade-in opacity-0"
+                  key={index + 100}
+                  className="inline-block opacity-0 animate-fade-in"
                   style={{
-                    animationDelay: `${(index + 18) * 0.05}s`,
-                    animationFillMode: 'forwards',
-                    transform: 'translateY(20px)'
+                    animationDelay: `${(index + 18) * 0.1}s`,
+                    animationFillMode: 'forwards'
                   }}
                 >
                   {char === " " ? "\u00A0" : char}
