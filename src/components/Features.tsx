@@ -35,13 +35,13 @@ const Features = () => {
       icon: Leaf,
       title: "Project Registration",
       description: "Register your environmental projects with ease. Our platform automatically validates and tokenizes your ecosystem services.",
-      color: "text-primary"
+      color: "text-success"
     },
     {
       icon: DollarSign,
       title: "Income Tracking",
       description: "Monitor your revenue streams in real-time with comprehensive analytics and automated payment processing.",
-      color: "text-tech-blue"
+      color: "text-success"
     },
     {
       icon: Coins,
