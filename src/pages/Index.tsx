@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import Benefits from "@/components/Benefits";
 import Partners from "@/components/Partners";
 import CTA from "@/components/CTA";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Benefits />
       <Partners />
       <CTA />
+      <Footer />
     </div>
   );
 };
