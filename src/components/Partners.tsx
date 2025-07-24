@@ -16,7 +16,7 @@ const Partners = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            Trusted by Leading Organizations
+            Our Partners & Supporters
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             We're building partnerships with industry leaders, research institutions, 
@@ -30,7 +30,7 @@ const Partners = () => {
               key={index}
               className="flex flex-col items-center justify-center p-4 rounded-lg bg-card/50 border border-border/50 hover:border-border transition-colors group"
             >
-              <div className="text-3xl mb-2 group-hover:scale-110 transition-transform">
+              <div className="text-5xl mb-2 group-hover:scale-110 transition-transform">
                 {partner.logo}
               </div>
               <span className="text-xs text-muted-foreground text-center font-medium">
@@ -38,12 +38,6 @@ const Partners = () => {
               </span>
             </div>
           ))}
-        </div>
-        
-        <div className="text-center mt-12">
-          <p className="text-sm text-muted-foreground">
-            * Partner logos are placeholders. We're actively building strategic partnerships.
-          </p>
         </div>
       </div>
     </section>
