@@ -52,7 +52,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-accent/30">
+    <section id="features" className="min-h-screen flex items-center py-20 bg-gradient-to-b from-background to-accent/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-tech-blue bg-clip-text text-transparent">

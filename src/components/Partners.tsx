@@ -12,7 +12,7 @@ const Partners = () => {
   ];
 
   return (
-    <section className="py-16 border-t border-border/50">
+    <section className="min-h-screen flex items-center py-16 border-t border-border/50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">

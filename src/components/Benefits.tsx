@@ -4,7 +4,7 @@ import { ArrowRight, TreePine, Building2, BarChart3, Zap } from "lucide-react";
 
 const Benefits = () => {
   return (
-    <section className="py-20 bg-background">
+    <section className="min-h-screen flex items-center py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
