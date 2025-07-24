@@ -82,28 +82,6 @@ const Features = () => {
           ))}
         </div>
 
-        {/* Tech Stack Indicators */}
-        <div className="mt-20 text-center">
-          <h3 className="text-2xl font-semibold mb-8 text-foreground">Trusted by International Standards</h3>
-          <div className="flex flex-wrap justify-center items-center gap-8 text-muted-foreground">
-            <div className="flex items-center gap-2">
-              <Shield className="w-5 h-5 text-primary" />
-              <span className="font-medium">ISO 14064</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Users className="w-5 h-5 text-tech-blue" />
-              <span className="font-medium">VCS Certified</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <TrendingUp className="w-5 h-5 text-success" />
-              <span className="font-medium">Gold Standard</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle className="w-5 h-5 text-primary" />
-              <span className="font-medium">CDM Compatible</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
