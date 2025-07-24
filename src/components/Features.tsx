@@ -26,9 +26,9 @@ const Features = () => {
       color: "text-tech-blue"
     },
     {
-      icon: Coins,
-      title: "Auto-Tokenization",
-      description: "Blockchain technology automatically converts verified environmental benefits into tradeable digital certificates.",
+      icon: CheckCircle,
+      title: "Verified Compensation",
+      description: "Generate internationally recognized compensation certificates by burning tokens assigned to your projects.",
       color: "text-success"
     },
     {
@@ -44,9 +44,9 @@ const Features = () => {
       color: "text-tech-blue"
     },
     {
-      icon: CheckCircle,
-      title: "Verified Compensation",
-      description: "Generate internationally recognized compensation certificates by burning tokens assigned to your projects.",
+      icon: Coins,
+      title: "Auto-Tokenization",
+      description: "Blockchain technology automatically converts verified environmental benefits into tradeable digital certificates.",
       color: "text-success"
     }
   ];
