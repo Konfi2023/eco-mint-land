@@ -36,9 +36,9 @@ const Hero = () => {
 
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-primary-glow to-tech-blue bg-clip-text text-transparent leading-tight">
-            Trust in Every 
+            We create Trust in 
             <br />
-            Carbon Credit
+            Ecosystem Services
           </h1>
           
           {/* Subheadline */}
