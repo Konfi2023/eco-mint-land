@@ -29,7 +29,7 @@ const Features = () => {
       icon: CheckCircle,
       title: "Verified Compensation",
       description: "Generate internationally recognized compensation certificates by burning tokens assigned to your projects.",
-      color: "text-success"
+      color: "text-tech-blue"
     },
     {
       icon: Leaf,
