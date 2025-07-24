@@ -15,7 +15,7 @@ const Partners = () => {
     <section id="partners" className="min-h-screen flex items-center py-16 border-t border-border/50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-tech-blue bg-clip-text text-transparent">
             Our Partners & Supporters
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">

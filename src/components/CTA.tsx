@@ -12,7 +12,7 @@ const CTA = () => {
             <Sparkles className="w-5 h-5 text-tech-blue flex-shrink-0" />
           </div>
           
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8 bg-gradient-to-r from-primary via-tech-blue to-success bg-clip-text text-transparent leading-tight px-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-8 bg-gradient-to-r from-primary to-tech-blue bg-clip-text text-transparent leading-tight px-4">
             Stay Updated on Our Progress
           </h2>
           
