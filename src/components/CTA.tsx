@@ -4,44 +4,46 @@ import { ArrowRight, Sparkles } from "lucide-react";
 const CTA = () => {
   return (
     <section id="cta" className="min-h-screen flex items-center py-20 bg-gradient-to-br from-primary/5 via-tech-blue/5 to-success/5 relative overflow-hidden">
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="flex items-center justify-center gap-2 mb-6">
-            <Sparkles className="w-6 h-6 text-primary" />
-            <span className="text-sm font-medium text-primary uppercase tracking-wider">Stay Connected</span>
-            <Sparkles className="w-6 h-6 text-tech-blue" />
+      <div className="container mx-auto px-6 relative z-10">
+        <div className="max-w-5xl mx-auto text-center">
+          <div className="flex items-center justify-center gap-2 mb-8">
+            <Sparkles className="w-5 h-5 text-primary flex-shrink-0" />
+            <span className="text-sm font-medium text-primary uppercase tracking-wider whitespace-nowrap">Stay Connected</span>
+            <Sparkles className="w-5 h-5 text-tech-blue flex-shrink-0" />
           </div>
           
-          <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-tech-blue to-success bg-clip-text text-transparent">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8 bg-gradient-to-r from-primary via-tech-blue to-success bg-clip-text text-transparent leading-tight px-4">
             Stay Updated on Our Progress
           </h2>
           
-          <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-            We're building the future of ecosystem services. Join our community to get updates 
-            on our development progress and be the first to know when we launch.
-          </p>
+          <div className="max-w-3xl mx-auto mb-12 px-4">
+            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
+              We're building the future of ecosystem services. Join our community to get updates 
+              on our development progress and be the first to know when we launch.
+            </p>
+          </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button variant="hero" size="xl" className="group">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16 px-4">
+            <Button variant="hero" size="xl" className="group w-full sm:w-auto min-w-[200px]">
               Contact Us
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform ml-2" />
             </Button>
-            <Button variant="outline-hero" size="xl">
+            <Button variant="outline-hero" size="xl" className="w-full sm:w-auto min-w-[200px]">
               Subscribe for Updates
             </Button>
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-8 text-sm text-muted-foreground">
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-primary" />
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 lg:gap-8 text-sm text-muted-foreground px-4">
+            <div className="flex items-center gap-2 whitespace-nowrap">
+              <div className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
               <span>Coming Soon</span>
             </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-tech-blue" />
+            <div className="flex items-center gap-2 whitespace-nowrap">
+              <div className="w-2 h-2 rounded-full bg-tech-blue flex-shrink-0" />
               <span>Early Access Available</span>
             </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-success" />
+            <div className="flex items-center gap-2 whitespace-nowrap">
+              <div className="w-2 h-2 rounded-full bg-success flex-shrink-0" />
               <span>Join Our Community</span>
             </div>
           </div>
