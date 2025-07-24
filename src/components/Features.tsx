@@ -14,9 +14,9 @@ import {
 const Features = () => {
   const features = [
     {
-      icon: Leaf,
-      title: "Project Registration",
-      description: "Register your environmental projects with ease. Our platform automatically validates and tokenizes your ecosystem services.",
+      icon: Globe,
+      title: "Global Marketplace",
+      description: "Access a worldwide marketplace of verified CO2 certificates, biodiversity credits, and other ecosystem services.",
       color: "text-primary"
     },
     {
@@ -32,9 +32,9 @@ const Features = () => {
       color: "text-success"
     },
     {
-      icon: Globe,
-      title: "Global Marketplace",
-      description: "Access a worldwide marketplace of verified CO2 certificates, biodiversity credits, and other ecosystem services.",
+      icon: Leaf,
+      title: "Project Registration",
+      description: "Register your environmental projects with ease. Our platform automatically validates and tokenizes your ecosystem services.",
       color: "text-primary"
     },
     {
