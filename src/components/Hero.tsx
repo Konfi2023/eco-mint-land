@@ -35,10 +35,29 @@ const Hero = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-primary-glow to-tech-blue bg-clip-text text-transparent leading-tight">
-            We create Trust in 
-            <br />
-            Ecosystem Services
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-foreground/90 relative">
+            <span className="block bg-background text-transparent bg-clip-text shadow-[inset_0_4px_8px_rgba(0,0,0,0.3),inset_0_-2px_4px_rgba(255,255,255,0.1)] filter drop-shadow-[0_2px_4px_rgba(0,0,0,0.2)] font-black tracking-tight" 
+                  style={{
+                    textShadow: 'inset 0 3px 6px rgba(0,0,0,0.4), inset 0 -1px 2px rgba(255,255,255,0.1)',
+                    WebkitTextStroke: '1px rgba(0,0,0,0.1)',
+                    color: 'transparent',
+                    background: 'linear-gradient(145deg, #e2e8f0 0%, #cbd5e1 50%, #94a3b8 100%)',
+                    WebkitBackgroundClip: 'text',
+                    backgroundClip: 'text'
+                  }}>
+              We create Trust in
+            </span>
+            <span className="block bg-background text-transparent bg-clip-text shadow-[inset_0_4px_8px_rgba(0,0,0,0.3),inset_0_-2px_4px_rgba(255,255,255,0.1)] filter drop-shadow-[0_2px_4px_rgba(0,0,0,0.2)] font-black tracking-tight" 
+                  style={{
+                    textShadow: 'inset 0 3px 6px rgba(0,0,0,0.4), inset 0 -1px 2px rgba(255,255,255,0.1)',
+                    WebkitTextStroke: '1px rgba(0,0,0,0.1)',
+                    color: 'transparent',
+                    background: 'linear-gradient(145deg, #e2e8f0 0%, #cbd5e1 50%, #94a3b8 100%)',
+                    WebkitBackgroundClip: 'text',
+                    backgroundClip: 'text'
+                  }}>
+              Ecosystem Services
+            </span>
           </h1>
           
           {/* Subheadline */}
