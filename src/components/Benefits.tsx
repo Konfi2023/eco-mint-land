@@ -55,10 +55,6 @@ const Benefits = () => {
               </div>
             </div>
 
-            <Button variant="hero" size="lg" className="group">
-              Register Your Project
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
           </div>
 
           {/* Companies Side */}
@@ -99,10 +95,6 @@ const Benefits = () => {
               </div>
             </div>
 
-            <Button variant="tech" size="lg" className="group">
-              Browse Certificates
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
           </div>
         </div>
 
